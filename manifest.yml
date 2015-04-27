@@ -1,6 +1,6 @@
 ---
 applications:
-- name: hello-world
-  memory: 512M
-  host: hello-world
-  path: ./build/libs/hello-world-1.0.war
+- name: hello-world # Name of the application
+  memory: 512M # Amount of memory to be allotted to the Application
+  host: hello-world # Subdomain to be allotted to the application.
+  path: ./build/libs/Java-HelloWorld-Sample-1.0.war # path to the war file
