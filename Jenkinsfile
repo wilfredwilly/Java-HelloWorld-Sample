@@ -8,7 +8,7 @@ pipeline {
 	   
         stage ('Checkout') {
           steps {
-            git 'https://github.com/wilfredwilly/addressbook.git'
+            git 'https://github.com/wilfredwilly/Java-HelloWorld-Sample.git'
           }
         }
         stage('Build') {
